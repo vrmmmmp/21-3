@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS盒模型、背景、文字排版</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            background-image: linear-gradient(45deg,rgb(203, 78, 24),rgb(74, 197, 36));
+            width: 200px;
+            height: 200px;
+            margin-top: 100px;
+            margin-bottom: 4em;
+            margin-left: auto;
+            margin-right: auto;
+           
+            border: dashed 1px rgb(200, 75, 75);
+            padding: 20px;
+            border-radius: 10px 20px;
+            box-shadow: 3px 3px 10px #ccc;
+        }
+        div p{
+            margin: 0;
+            line-height: 200px;
+            text-align: center;
+            font-size: 48px;
+            font-weight: 900;
+            color:rgb(189, 176, 176);
+            font-family: "Algerian";
+        }
+        .text{
+            text-indent: 2em;
+            line-height: 1.7;
+            font-family: "楷体";
+            font-size: 24px;
+            font-weight: 400;
+            text-align: justify;
+            letter-spacing: 1px;
+        }
+        span{
+            text-decoration: rgb(0, 128, 0) wavy underline;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+   <div>
+    <p>2023</p>
+   </div> 
+   <p class="text">
+    子曰：<span>“弟子入则孝，出则弟，谨而信，泛爱众，而亲仁。行有余力，则以学文。”</span>
+    子曰:“其为人也孝弟而好犯上者，鲜矣；不好犯上而好作乱者，未之有也。君子务本，本立而道生。孝弟也者，其为仁之本与!”
+    子曰:“巧言令色，鲜矣仁！”
+    曾子曰“吾日三省吾身:为人谋而不忠乎?与朋友交而不信乎？传不习乎？”
+    子曰:“道千乘之国,敬事而信，节用而爱人，使民以时。”
+    子曰：“弟子入则孝，出则弟，谨而信，泛爱众，而亲仁。行有余力，则以学文。”
+   </p>
+</body>
+</html>
